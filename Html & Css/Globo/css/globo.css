@@ -1,0 +1,58 @@
+html, body, *{margin:0;padding:0;}
+.geral{
+	width: 100%;
+	height: 80px;
+	border-bottom: 1px solid gray;
+}
+.logo{
+	width: 120px;
+	float: left;
+}
+.logo img{
+	width: 110px;
+	margin-top: 10px;
+}
+.conteudo{
+	width: 80%;
+	height: 80px;
+	margin: 0 auto;
+}
+.menu{
+	width: 50%;
+	float: left;
+	height: 85px;
+}
+.menu ul{
+	list-style: none;
+	float: left;
+	margin-top: 30px;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	padding:15px 15px 15px 15px;
+	text-decoration: none;
+	font-size: 25px;
+}
+.g1 a{
+	color:#a80000; 
+}
+.ge a{
+	color:#3b9c00; 
+}
+.gshow a{
+	color:#ff7f00; 
+}
+.tech a{
+	color:#666; 
+}
+.videos a{
+	color:#0669de;
+}
+.pesquisar input{
+	margin-top: 25px;
+	float: right;
+	height: 35px;
+	width: 250px;
+}

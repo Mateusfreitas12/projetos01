@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadastro</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>CADASTRE-SE PARA RECEBER ATUALIZAÇÕES!</h1>
+		<hr>
+		<br><br>
+		<div class="tabela">
+			<fieldset>
+				<form method="post">
+					<label>Nome:</label>
+					<input type="text" name="nome" placeholder="Digite seu nome">
+					<br><br>
+					<label>Sobrenome:</label>
+					<input type="text" name="sobrenome" placeholder="Digite seu sobrenome">
+					<br><br>
+					<label>Email:</label>
+					<input type="email" name="email" placeholder="Digite seu email">
+					<br><br>
+					<input type="submit" name="botão" value="Cadastrar" class="cadastrar">
+				</form>
+			</fieldset>
+		</div>
+		<!-- Aqui começa o CSS -->
+		<style type="text/css">
+			html, body, *{margin:0; padding:0;}
+
+			.cadastrar{
+				background: #333;
+				color: #fff;
+				width: 150px;
+				height: 30px;
+				font-size: 20px;
+				cursor: pointer;
+				margin-left: 60px;
+				
+			}
+			input[type=submit]:hover{
+				background: #ff6600;
+			}
+			.tabela{
+				width: 300px;
+				height: 150px;
+
+			}
+			h1{
+				text-align: center;
+			}
+			body{
+				background-color: lightgray;
+			}
+			fieldset{
+				width: 300px;
+				height: 150px;
+				align-items: center;
+			}
+			label{
+				font-size: 20px;
+			}
+		</style>
+	</body>
+</html>
