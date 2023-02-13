@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>calculadora</title>
+		<meta charset="utf-8"/>
+		<script type="text/javascript">
+			//var ad, sub, div, mult;
+			var result;
+
+			alert("Adição = a " + " / " + " Subtração = s " + " / " + " Divisão = d " + " / " + " Multiplicação = m");
+			var msg=prompt("Digite a opção: ", msg);
+			var x=prompt("Digite o 1 valor: ", x);
+			var y=prompt("Digite o 2 valor: ", y);
+			
+			if(msg = 'a'){
+				result = parseInt(x) + parseInt(y);
+				alert("Adição = "+result);
+				} else {
+      				if (msg = 's') {
+         					result = x-y;
+         					alert("Subtração = "+result);
+      					} else {
+         					if (msg = 'm') {
+            							result = x*y;
+            							alert("Multiplicação = "+result);
+         							}else {
+            							result = x/y;
+            							alert("Divisão = "+result);
+        			 }
+      }
+			 }
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>
